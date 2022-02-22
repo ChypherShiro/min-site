@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: #ECECEC;
   position: absolute;
   width: 1400px;
@@ -10,4 +11,9 @@ body {
   background-color: 6D90EB;
   width: 1400px;
   height: 59px;
+=======
+  background-color: black;
+  font-size: 21px;
+  color: white;
+>>>>>>> 7a58dea13666ba0971fc86104e0dd7d944b204b2
 }
