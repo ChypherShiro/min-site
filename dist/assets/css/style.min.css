@@ -1,1 +1,23 @@
+<<<<<<< HEAD
 body{background-color:#000;font-size:21px;color:#fff}
+=======
+body {
+<<<<<<< HEAD
+  background-color: #ECECEC;
+  position: absolute;
+  width: 1400px;
+  height: 4415px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: 6D90EB;
+  width: 1400px;
+  height: 59px;
+=======
+  background-color: black;
+  font-size: 21px;
+  color: white;
+>>>>>>> 7a58dea13666ba0971fc86104e0dd7d944b204b2
+}
+>>>>>>> b6dc8eb3bd01e79eeb5ba08e5b9bc98cdf6e3a40

@@ -1,5 +1,21 @@
+@import "vars";
+<<<<<<< HEAD
+=======
+@import "fonts";
+@import "last-news";
+>>>>>>> 7a58dea13666ba0971fc86104e0dd7d944b204b2
 body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+    background-color: $main_color;
+    position: absolute;
+    width: 1400px;
+    height: 4415px;
+
+}
+//NAVBAR STYLES
+
+.navbar {
+    position: fixed;
+    background-color: $second_color;
+    width: 1400px;
+    height: 59px;
 }
