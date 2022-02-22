@@ -1,0 +1,13 @@
+body {
+  background-color: #ECECEC;
+  position: absolute;
+  width: 1400px;
+  height: 4415px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: 6D90EB;
+  width: 1400px;
+  height: 59px;
+}

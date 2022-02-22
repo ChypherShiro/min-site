@@ -1,5 +1,16 @@
+@import "vars";
 body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+    background-color: $main_color;
+    position: absolute;
+    width: 1400px;
+    height: 4415px;
+
+}
+//NAVBAR STYLES
+
+.navbar {
+    position: fixed;
+    background-color: $second_color;
+    width: 1400px;
+    height: 59px;
 }
