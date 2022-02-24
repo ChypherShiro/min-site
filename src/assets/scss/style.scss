@@ -3,6 +3,47 @@
 @import "fonts";
 @import "last-news";
 
+<<<<<<< HEAD
+body {
+    background-color: $main_color;
+}
+//NAVBAR STYLES
+
+.navbar {
+    background-color: $second_color;
+    width: 1400px;
+    height: 59px;
+    margin: 0 auto;
+    & > ul > li{
+        margin: 20px;
+    }
+}
+ul {
+    height: 59px;
+    margin-top: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+   }
+ul li {
+    & > a {
+        text-decoration: none;
+
+    }
+    list-style: none;
+    margin-right: 5px; /* Отступ слева */
+
+
+    font-family: $pt;
+    font-size: 20px;
+   }
+
+=======
 
 body {
     background-color: $main_color;
@@ -18,3 +59,4 @@ body {
 
 
 
+>>>>>>> main

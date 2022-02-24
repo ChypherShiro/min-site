@@ -1,3 +1,42 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Work+Sans&display=swap");
+body {
+  background-color: #ECECEC;
+}
+
+.navbar {
+  background-color: #6D90EB;
+  width: 1400px;
+  height: 59px;
+  margin: 0 auto;
+}
+.navbar > ul > li {
+  margin: 20px;
+}
+
+ul {
+  height: 59px;
+  margin-top: 0;
+  /* Обнуляем значение отступов */
+  padding: 4px;
+  /* Значение полей */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 5px;
+  /* Отступ слева */
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 20px;
+}
+ul li > a {
+  text-decoration: none;
+=======
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Work+Sans&display=swap");
 * {
   margin: 0;
@@ -107,4 +146,5 @@ body {
 .container {
   width: 1400px;
   margin: 0 auto;
+>>>>>>> main
 }
