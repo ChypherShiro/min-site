@@ -1,19 +1,110 @@
-body {
-<<<<<<< HEAD
-  background-color: #ECECEC;
-  position: absolute;
-  width: 1400px;
-  height: 4415px;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar {
-  position: fixed;
-  background-color: 6D90EB;
+.last-news__title {
+  font-family: "PT Sans Caption", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+  margin-bottom: 100px;
+  max-width: 680px;
+}
+
+.last-news__main {
+  background-color: #fff;
+  padding: 43px 40px 43px 16px;
+  border-radius: 25px;
+  display: flex;
+}
+.last-news__main--div {
+  width: 600px;
+  height: 400px;
+  background: #C4C4C4;
+  border-radius: 15px;
+}
+.last-news__main--text {
+  margin: 0 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.last-news__main--text > h3 {
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.last-news__main--text > p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.last-news__main--text > span {
+  text-align: right;
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.last-news__submain {
+  margin-top: 80px;
+}
+.last-news__items {
+  display: flex;
+  justify-content: space-between;
+}
+.last-news__item {
+  padding: 24px 16px 16px 16px;
+  background-color: #fff;
+  border-radius: 25px;
+  flex-basis: 31%;
+}
+.last-news__item--img {
+  height: 195px;
+  background: #C4C4C4;
+  border-radius: 15px;
+}
+.last-news__item--text {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 22px 0;
+}
+.last-news__item--view {
+  text-align: right;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+body {
+  background-color: #ECECEC;
+}
+
+.container {
   width: 1400px;
-  height: 59px;
-=======
-  background-color: black;
-  font-size: 21px;
-  color: white;
->>>>>>> 7a58dea13666ba0971fc86104e0dd7d944b204b2
+  margin: 0 auto;
 }
