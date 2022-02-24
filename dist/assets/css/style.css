@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Work+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .last-news__title {
     font-family: "PT Sans Caption", sans-serif;
     font-style: normal;
@@ -108,4 +116,13 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -0.02em;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
 }
