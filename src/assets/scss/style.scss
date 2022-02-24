@@ -2,8 +2,8 @@
 @import "vars";
 @import "fonts";
 @import "last-news";
-
-
+@import "global";
+@import "date-news";
 body {
     background-color: $main_color;
 }
