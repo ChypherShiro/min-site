@@ -3,10 +3,12 @@
 @import "last-news";
 body {
     background-color: $main_color;
-    position: absolute;
-    width: 1400px;
-    height: 4415px;
 
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
 }
 //NAVBAR STYLES
 
