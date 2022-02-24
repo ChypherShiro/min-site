@@ -18,7 +18,7 @@ body {
         margin: 20px;
     }
 }
-ul {
+.header_ul {
     height: 59px;
     margin-top: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
@@ -30,7 +30,7 @@ ul {
 
 
    }
-ul li {
+.header_ul li {
     & > a {
         text-decoration: none;
 
