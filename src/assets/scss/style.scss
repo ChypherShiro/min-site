@@ -1,20 +1,18 @@
-@import "reset";
 @import "vars";
 @import "fonts";
 @import "last-news";
-
-
 body {
     background-color: $main_color;
-    
-    
-}
-
-.container {
+    position: absolute;
     width: 1400px;
-    margin: 0 auto;
+    height: 4415px;
+
 }
 //NAVBAR STYLES
 
-
-
+.navbar {
+    position: fixed;
+    background-color: $second_color;
+    width: 1400px;
+    height: 59px;
+}
