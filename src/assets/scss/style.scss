@@ -17,8 +17,12 @@ body {
     & > ul > li{
         margin: 20px;
     }
+
 }
+
+
 .header_ul {
+
     height: 59px;
     margin-top: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
@@ -35,6 +39,7 @@ body {
         text-decoration: none;
 
     }
+    line-height: 20px;
     list-style: none;
     margin-right: 5px; /* Отступ слева */
 
@@ -49,6 +54,14 @@ body {
     background-color: $main_color;
 
 
+}
+
+.logo
+{    width: 289px;
+    & > img {
+        text-align: left;
+        width: 289px;
+}
 }
 
 .container {
