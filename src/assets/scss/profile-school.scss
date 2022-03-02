@@ -1,0 +1,208 @@
+@import "reset";
+@import "vars";
+@import "fonts";
+
+//BREADCRUMP STYLE
+
+hr {
+    border-color: black;
+    width : 1200px;
+    align-self: center;
+    size: 3px;
+}
+
+.bread_div {
+    text-align: center;
+
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #FFFFFF;
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+    font-family: $pt;
+    font-weight: bold;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+
+.date_publication, .viewed {
+    display: inline-block;
+}
+
+//CONTENT SPECIFIC NEWS
+.profile-school {
+    display: flex;
+    padding-top: 40px;
+    &--img{
+
+            height: 195px;
+            background: #C4C4C4;
+            border-radius: 15px;
+        }
+}
+
+.profile-school__title{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 100px;
+    max-width: 680px;
+    margin-top: 40px;
+}
+
+.profile-school__right{
+    width: 724px;
+height: 1517px;
+    background-color: #fff;
+    padding: 43px 40px 43px 16px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+ &--div{
+        width: 600px;
+        height: 400px;
+        background: #C4C4C4;
+        border-radius: 15px;
+    }
+    &--img{
+
+            height: 195px;
+            background: #C4C4C4;
+            border-radius: 15px;
+        }
+    &--text{
+        margin: 0 0 0 40px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        & > h2 {
+            font-family: PT Serif Caption;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 94px;
+            letter-spacing: -0.02em;
+
+            color: #000000;
+        }
+
+        & > p {
+            padding-top: 20px;
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: 0.05em;
+
+            color: #000000;
+        }
+        & > span {
+            text-align: right;
+            font-family: PT Serif Caption;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+
+            color: #000000;
+
+        }
+    }
+}
+
+.profile-school__left{
+    width: 724px;
+height: 1517px;
+    background-color: #fff;
+    padding: 43px 40px 43px 16px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+ &--div{
+        width: 600px;
+        height: 400px;
+        background: #C4C4C4;
+        border-radius: 15px;
+    }
+    &--img{
+
+            height: 195px;
+            background: #C4C4C4;
+            border-radius: 15px;
+        }
+    &--text{
+        margin: 0 0 0 40px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        & > h2 {
+            font-family: PT Serif Caption;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 94px;
+            letter-spacing: -0.02em;
+
+            color: #000000;
+        }
+
+        & > p {
+            padding-top: 20px;
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: 0.05em;
+
+            color: #000000;
+        }
+        & > span {
+            text-align: right;
+            font-family: PT Serif Caption;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+
+            color: #000000;
+
+        }
+    }
+}
+
