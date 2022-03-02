@@ -1,0 +1,55 @@
+@import "vars";
+.navbar {
+    background-color: $second_color;
+    width: 1400px;
+    height: 59px;
+    margin: 0 auto;
+    & > ul > li{
+
+        margin: 20px;
+    }
+
+}
+
+
+.header_ul {
+    & > .main_icon{
+        margin-right: 80px;
+        text-align: flex;
+    }
+
+    height: 59px;
+    margin-top: 0; /* Обнуляем значение отступов */
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+   }
+.header_ul li {
+    & > a {
+        text-decoration: none;
+
+    }
+    line-height: 20px;
+    list-style: none;
+    margin-right: 5px; /* Отступ слева */
+
+
+    font-family: $pt;
+    font-size: 20px;
+   }
+
+.logo
+{    width: 289px;
+    & > img {
+        text-align: left;
+        width: 289px;
+}
+}
+
+.header_link{
+    color: #0000ee;
+}

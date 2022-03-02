@@ -1,0 +1,101 @@
+<div class="container">
+    <form>
+        <!--<input type="reset" class="reset" value="Clear it!" />-->
+        <label class="label__text">Выберете область</label>
+        <div class="__select" data-state="">
+            <div class="__select__title" data-default="Option 0">Чуйская</div>
+            <div class="__select__content">
+                <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0" class="__select__label">Чуйская</label>
+                <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1" class="__select__label">Нарынская</label>
+                <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2" class="__select__label">Талаская</label>
+                <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3" class="__select__label">Джалал-Абадская</label>
+                <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4" class="__select__label">Ошская</label>
+                <input id="singleSelect5" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect5" class="__select__label">Баткенская</label>
+            </div>
+        </div>
+        
+
+        <div class="dropdown_1">
+            <select id="sel1" class="select_1" onchange="giveSelection(this.value)">
+                <option value="a">Чуйская</option>
+                <option value="b">Нарынская</option>
+                <option value="c">Талаская</option>
+                <option value="d">Джалал-Абадская</option>
+                <option value="e">Иссык-Кульская</option>
+                <option value="f">Ошская</option>
+                <option value="g">Баткенская</option>
+            </select>        
+            <select id="sel2">
+                <!--Чуй-->
+                <option data-option="a">Панфиловский район</option>
+                <option data-option="a">Жайыльский район</option>
+                <option data-option="a">Московский район</option>
+                <option data-option="a">Сокулукский район</option>
+                <option data-option="a">Аламединский район</option>
+                <option data-option="a">Чуйский район</option>
+                <option data-option="a">Ысык-Атинский район</option>
+                <option data-option="a">Кеминский район</option>
+                <!--Нарын-->
+                <option data-option="b">Ак-Талинский район</option>
+                <option data-option="b">Ат-Башинский район</option>
+                <option data-option="b">Жумгальский район</option>
+                <option data-option="b">Кочкорский район</option>
+                <option data-option="b">Нарынский район</option>
+                <!--Талас-->
+                <option data-option="c">Бакай-Атинский район</option>
+                <option data-option="c">Кара-Бууринский район</option>
+                <option data-option="c">Манасский район</option>
+                <option data-option="c">Таласский район</option>
+                <!--Джалал-Абад-->
+                <option data-option="d">Аксыйский район</option>
+                <option data-option="d">Ала-Букинский район</option>
+                <option data-option="d">Базар-Коргонский район</option>
+                <option data-option="d">Ноокенский район</option>
+                <option data-option="d">Сузакский район</option>
+                <option data-option="d">Тогуз-Тороуский район</option>
+                <option data-option="d">Токтогульский район</option>
+                <option data-option="d">Чаткальский район</option>
+                <!--Иссык-Куль-->
+                <option data-option="e">Ак-Суйский район</option>
+                <option data-option="e">Джети-Огузский район</option>
+                <option data-option="e">Тонский район</option>
+                <option data-option="e">Тюпский район</option>
+                <option data-option="e">Иссык-Кульский район</option>
+                <!--Ош-->
+                <option data-option="f">Алайский район</option>
+                <option data-option="f">Араванский район</option>
+                <option data-option="f">Кара-Кулджинский район</option>
+                <option data-option="f">Кара-Суйский район</option>
+                <option data-option="f">Ноокатский район</option>
+                <option data-option="f">Узгенский район</option>
+                <option data-option="f">Чон-Алайский район</option>
+                <!--Баткен-->
+                <option data-option="g">Баткенский район</option>
+                <option data-option="g">Кадамжайский район</option>
+                <option data-option="g">Лейлекский район</option>
+            </select>
+        </div>
+        <script>
+            var sel1 = document.querySelector('#sel1');
+            var sel2 = document.querySelector('#sel2');
+            var options2 = sel2.querySelectorAll('option');
+
+            function giveSelection(selValue) {
+                sel2.innerHTML = '';
+                for (var i = 0; i < options2.length; i++) {
+                    if (options2[i].dataset.option === selValue) {
+                        sel2.appendChild(options2[i]);
+                    }
+                }
+            }
+
+            giveSelection(sel1.value);
+        </script>
+    </form>
+</div>

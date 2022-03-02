@@ -1,0 +1,86 @@
+@import "reset";
+@import "vars";
+@import "fonts";
+
+//BREADCRUMP STYLE
+
+hr {
+    border-color: black;
+    width : 1200px;
+    align-self: center;
+    size: 3px;
+}
+
+.bread_div {
+    text-align: center;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: $main_color;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 25px;
+    font-family: $pt;
+    font-weight: bold;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+//CONTENT SPECIFIC NEWS
+
+.topic {
+    font-family: $pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.author {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.content_news {
+    font-family: $pt;
+    font-size: 20px;
+    margin-left: 230px;
+    margin-right: 150px;
+}
+
+.picture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    background-color: #01447e;
+}
+
+.date_publication {
+    margin-top: 30px;
+    margin-right: 570px;
+}
+
+.viewed {
+    margin-left: 690px;
+    margin-top: -27px;
+}
