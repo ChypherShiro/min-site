@@ -1,0 +1,125 @@
+@import "fonts";
+.search__wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.search__box{
+    flex-basis: 35%;
+    background-color: #fff;
+    
+    padding: 22px 26px;
+    border-radius: 15px;
+    & ul li {
+        list-style-type: none;
+        margin-right: 20px;
+    }
+}
+.area {
+    margin-left: 20px;
+}
+.school {
+    margin-left: 20px;
+}
+
+.list span {
+    cursor: pointer;
+  }
+  
+  .hide::before {
+    content: "+";
+  }
+  
+  .show::before {
+    content: "-";
+  }
+
+.search__list {
+    list-style-type: none;
+    margin-top: 40px;
+    & li {
+        font-size: 27px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        
+    }
+
+}
+
+.search-input{
+    width: 420px;
+    padding: 20px 0 20px 20px;
+    border-radius: 15px;
+    border: 7px solid #769CFF;
+    font-size: 25px;
+    line-height: 29px;
+}
+.searched__news{
+    flex-basis: 60%;
+    background-color: #fff;
+    padding: 22px 26px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    &--item{
+        display: flex;
+        justify-content: space-between;
+    }
+    &--img{
+        width: 375px;
+        height: 150px;
+        border-radius: 12px;
+        background-color: #C4C4C4;
+    }
+    &--info{
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    &--title{
+        
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.02em;
+
+        
+    }
+    &--text{
+        
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+
+       
+    }
+    &--author{
+        
+        font-size: 16px;
+        line-height: 19px;
+        
+
+        letter-spacing: -0.02em;
+
+       
+    }
+    &--date{
+       
+        font-size: 16px;
+        line-height: 19px;
+        
+
+        letter-spacing: -0.02em;
+
+        
+    }
+}
