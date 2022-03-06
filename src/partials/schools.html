@@ -1,28 +1,8 @@
 <div class="container">
-    <form>
-        <!--<input type="reset" class="reset" value="Clear it!" />-->
-        <label class="label__text">Выберете область</label>
-        <div class="__select" data-state="">
-            <div class="__select__title" data-default="Option 0">Чуйская</div>
-            <div class="__select__content">
-                <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
-                <label for="singleSelect0" class="__select__label">Чуйская</label>
-                <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
-                <label for="singleSelect1" class="__select__label">Нарынская</label>
-                <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" />
-                <label for="singleSelect2" class="__select__label">Талаская</label>
-                <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
-                <label for="singleSelect3" class="__select__label">Джалал-Абадская</label>
-                <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
-                <label for="singleSelect4" class="__select__label">Ошская</label>
-                <input id="singleSelect5" class="__select__input" type="radio" name="singleSelect" />
-                <label for="singleSelect5" class="__select__label">Баткенская</label>
-            </div>
-        </div>
-        
-
-        <div class="dropdown_1">
-            <select id="sel1" class="select_1" onchange="giveSelection(this.value)">
+    <form class="dropdown">
+        <div class="select_1">
+            <label>Выберете область</label>
+            <select id="sel1" onchange="giveSelection(this.value)">
                 <option value="a">Чуйская</option>
                 <option value="b">Нарынская</option>
                 <option value="c">Талаская</option>
@@ -30,7 +10,10 @@
                 <option value="e">Иссык-Кульская</option>
                 <option value="f">Ошская</option>
                 <option value="g">Баткенская</option>
-            </select>        
+            </select>
+        </div>
+        <div class="select_2">
+            <label>Выберете район</label>
             <select id="sel2">
                 <!--Чуй-->
                 <option data-option="a">Панфиловский район</option>
@@ -81,6 +64,82 @@
                 <option data-option="g">Лейлекский район</option>
             </select>
         </div>
+        <div class="items">
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>       
+                <div class="item-img">
+
+                </div> 
+            </div>
+            
+            <div class="block-horizontal"> 
+                <p class="text">Школа-гимназия № 37</p>   
+                <div class="item-img">
+                    
+                </div>
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div>
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div> 
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div>
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div>               
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div>  
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div> 
+            </div>
+            
+            <div class="block-horizontal">
+                <p class="text">Школа-гимназия № 37</p>
+                <div class="item-img">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">&raquo;</a>
+        </div>
+
         <script>
             var sel1 = document.querySelector('#sel1');
             var sel2 = document.querySelector('#sel2');
